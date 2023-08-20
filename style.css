@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,500,700);
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: url;
+            background: linear-gradient(-45deg, #ffbb00, #FF6D00, #2962ff, #00e5ff);
+            
+            background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        } 
+        .espacio {
+            clear: both;
+        }
+        
+        #main {
+            width: 100%;
+            max-width: 800px;
+            
+            margin: 70px auto 15px auto;
+            opacity: 0.9;
+        }
+        
+        #header {
+            background: #CEF3DD;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 15px 15px 0 0;
+            padding-right: 10px;
+            padding-left: 14px;
+        }
+        
+        #title-page {
+            display: inline-block;
+            color: darkslategrey;
+        }
+        
+        #buttons-mac-wind {
+            float: right;
+        }
+        
+        #y {
+            background: #03d544;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            display: inline-block;
+            margin: 0 2px;
+            cursor: pointer;
+        }
+        
+        #s {
+            background: #ffbe03;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            display: inline-block;
+            margin: 0 2px;
+            cursor: pointer;
+        }
+        
+        #k {
+            background: #ff4545;
+            width: 12px;
+            height: 12px;
+            border-radius: 100%;
+            display: inline-block;
+            margin: 0 2px;
+            cursor: pointer;
+        }
+        /* numeros verticale */
+        
+        #no {
+            width: 41px;
+            background: #263238;
+            text-align: right;
+            padding: 7px 10px 7px 0;
+            float: left;
+            color: #cdd3de;
+        }
+        
+        .numeros {
+            display: block;
+        }
+        
+        #contenido {
+            background: #1B2225;
+            color: #cdd3de;
+            display: inline-block;
+            padding: 7px 10px;
+            width: calc(100% - 41px);
+        }
+        
+        .comentario {
+            color: #98A8B5;
+            font-weight: 400;
+            display: block;
+        }
+        
+        .comentario a {
+            text-decoration: none;
+            border-bottom: 1px dotted;
+            color: aquamarine;
+            font-weight: 400;
+            font-style: italic;
+        }
+        
+        .dato1 {
+            color: #8EDCF5;
+        }
+        
+        .id {
+            color: #F3A5F7;
+        }
+        
+        .corchete {
+            color: #cccccc;
+        }
+        
+        .atributos {
+            color: #CDFF8E;
+        }
+        
+        .valores {
+            color: #FFFFFF;
+        }
+        
+        .import {
+            color: #FFA9A9;
+            font-style: italic;
+        }
+        
+        #alt {
+            background: #CEF3DD;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 0 0 15px 15px;
+            padding-right: 10px;
+            text-align: center;
+        }
+        
+        #alt a {
+            margin-left: 5px;
+            border-bottom: 1px dotted;
+            text-decoration: none;
+            color: #213738;
+        }
