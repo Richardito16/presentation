@@ -5,6 +5,7 @@
             box-sizing: border-box;
         }
         
+        
         body {
             background: url;
             background: linear-gradient(-45deg, #ffbb00, #FF6D00, #2962ff, #00e5ff);
@@ -90,7 +91,7 @@
         
         #no {
             width: 41px;
-            background: #263238;
+            background: #263238d4;
             text-align: right;
             padding: 7px 10px 7px 0;
             float: left;
@@ -102,7 +103,7 @@
         }
         
         #contenido {
-            background: #1B2225;
+            background: #1b2225b9;
             color: #cdd3de;
             display: inline-block;
             padding: 7px 10px;
