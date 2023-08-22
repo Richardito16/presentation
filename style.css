@@ -35,8 +35,10 @@
         #main {
             width: 100%;
             max-width: 800px;
+            background: linear-gradient(180deg,  #0d1b429d, #0099aa74);
             
-            margin: 70px auto 15px auto;
+            border-radius: 15px 15px 15px 15px;
+            margin: 15px auto 15px auto;
             opacity: 0.9;
         }
         
@@ -91,7 +93,7 @@
         
         #no {
             width: 41px;
-            background: #263238d4;
+            background: #003ba091;
             text-align: right;
             padding: 7px 10px 7px 0;
             float: left;
@@ -103,7 +105,7 @@
         }
         
         #contenido {
-            background: #1b2225b9;
+            
             color: #cdd3de;
             display: inline-block;
             padding: 7px 10px;
